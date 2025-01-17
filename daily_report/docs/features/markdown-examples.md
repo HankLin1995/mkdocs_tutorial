@@ -67,6 +67,20 @@ hello_world()
 
 ![Image Alt Text](https://via.placeholder.com/150)
 
+## Images with Width
+
+Default image:
+![Default Image](https://via.placeholder.com/800x400)
+
+Image with pixel width:
+![300px Width Image](https://via.placeholder.com/800x400){ width="300" }
+
+Image with percentage width:
+![50% Width Image](https://via.placeholder.com/800x400){ width="50%" }
+
+Image with auto width and max-width:
+![Auto Width Image](https://via.placeholder.com/800x400){ .width-auto }
+
 ## Footnotes
 
 Here's a sentence with a footnote[^1].

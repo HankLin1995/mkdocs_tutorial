@@ -9,23 +9,25 @@
       
       
       
+        <link rel="prev" href="../code-blocks/">
       
-        <link rel="next" href="guide/getting-started/">
+      
+        <link rel="next" href="../../about/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
     
     
       
-        <title>MkDocs Tutorial</title>
+        <title>Admonitions - MkDocs Tutorial</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,9 +46,9 @@
       
     
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -72,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-mkdocs-tutorial" class="md-skip">
+        <a href="#admonitions" class="md-skip">
           Skip to content
         </a>
       
@@ -86,7 +88,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="MkDocs Tutorial" class="md-header__button md-logo" aria-label="MkDocs Tutorial" data-md-component="logo">
+    <a href="../.." title="MkDocs Tutorial" class="md-header__button md-logo" aria-label="MkDocs Tutorial" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -106,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Admonitions
             
           </span>
         </div>
@@ -199,11 +201,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
         
   
     
@@ -222,7 +222,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="guide/getting-started/" class="md-tabs__link">
+        <a href="../../guide/getting-started/" class="md-tabs__link">
           
   
   User Guide
@@ -236,11 +236,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="features/markdown-examples/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../markdown-examples/" class="md-tabs__link">
           
   
   Features
@@ -256,7 +258,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="about/" class="md-tabs__link">
+      <a href="../../about/" class="md-tabs__link">
         
   
     
@@ -290,7 +292,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="MkDocs Tutorial" class="md-nav__button md-logo" aria-label="MkDocs Tutorial" data-md-component="logo">
+    <a href="../.." title="MkDocs Tutorial" class="md-nav__button md-logo" aria-label="MkDocs Tutorial" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -305,30 +307,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Home
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -337,71 +319,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#features-demonstrated" class="md-nav__link">
-    <span class="md-ellipsis">
-      Features Demonstrated
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#quick-links" class="md-nav__link">
-    <span class="md-ellipsis">
-      Quick Links
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#getting-help" class="md-nav__link">
-    <span class="md-ellipsis">
-      Getting Help
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    <span class="md-ellipsis">
-      Commands
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    <span class="md-ellipsis">
-      Project layout
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -453,7 +370,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guide/getting-started/" class="md-nav__link">
+      <a href="../../guide/getting-started/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -474,7 +391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guide/writing-content/" class="md-nav__link">
+      <a href="../../guide/writing-content/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -495,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guide/customization/" class="md-nav__link">
+      <a href="../../guide/customization/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -520,25 +437,30 @@
       
   
   
+    
   
   
+  
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -549,7 +471,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Features
@@ -563,7 +485,7 @@
   
   
     <li class="md-nav__item">
-      <a href="features/markdown-examples/" class="md-nav__link">
+      <a href="../markdown-examples/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -584,7 +506,7 @@
   
   
     <li class="md-nav__item">
-      <a href="features/code-blocks/" class="md-nav__link">
+      <a href="../code-blocks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -602,10 +524,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="features/admonitions/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Admonitions
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -614,6 +556,71 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-admonitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Admonitions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#collapsible-admonitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Collapsible Admonitions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-titles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom Titles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nested-admonitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nested Admonitions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supported-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Supported Types
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -633,7 +640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/" class="md-nav__link">
+      <a href="../../about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -673,45 +680,45 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#features-demonstrated" class="md-nav__link">
+  <a href="#basic-admonitions" class="md-nav__link">
     <span class="md-ellipsis">
-      Features Demonstrated
+      Basic Admonitions
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#quick-links" class="md-nav__link">
+  <a href="#collapsible-admonitions" class="md-nav__link">
     <span class="md-ellipsis">
-      Quick Links
+      Collapsible Admonitions
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#getting-help" class="md-nav__link">
+  <a href="#custom-titles" class="md-nav__link">
     <span class="md-ellipsis">
-      Getting Help
+      Custom Titles
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#nested-admonitions" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      Nested Admonitions
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
+  <a href="#supported-types" class="md-nav__link">
     <span class="md-ellipsis">
-      Project layout
+      Supported Types
     </span>
   </a>
   
@@ -732,42 +739,67 @@
                   
 
 
-<h1 id="welcome-to-mkdocs-tutorial">Welcome to MkDocs Tutorial<a class="headerlink" href="#welcome-to-mkdocs-tutorial" title="Permanent link">&para;</a></h1>
-<p>This is a comprehensive tutorial and example site for MkDocs with the Material theme. Here you'll find examples of various features and capabilities that MkDocs offers.</p>
-<h2 id="features-demonstrated">Features Demonstrated<a class="headerlink" href="#features-demonstrated" title="Permanent link">&para;</a></h2>
+<h1 id="admonitions">Admonitions<a class="headerlink" href="#admonitions" title="Permanent link">&para;</a></h1>
+<p>Admonitions, also known as call-outs, are an excellent way to highlight important information.</p>
+<h2 id="basic-admonitions">Basic Admonitions<a class="headerlink" href="#basic-admonitions" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This is a note admonition. Use it for general information.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>This is a tip admonition. Use it for helpful tips and tricks.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This is a warning admonition. Use it to warn users about potential issues.</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>This is a danger admonition. Use it for critical information that needs attention.</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>This is a success admonition. Use it to indicate successful operations.</p>
+</div>
+<h2 id="collapsible-admonitions">Collapsible Admonitions<a class="headerlink" href="#collapsible-admonitions" title="Permanent link">&para;</a></h2>
+<details class="note">
+<summary>Click me to expand</summary>
+<p>This is a collapsible admonition. It starts collapsed.</p>
+</details>
+<details class="note" open="open">
+<summary>Expanded by default</summary>
+<p>This is a collapsible admonition that starts expanded.</p>
+</details>
+<h2 id="custom-titles">Custom Titles<a class="headerlink" href="#custom-titles" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Custom Title</p>
+<p>You can customize the title of any admonition.</p>
+</div>
+<h2 id="nested-admonitions">Nested Admonitions<a class="headerlink" href="#nested-admonitions" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Outer note</p>
+<p>This is an outer note.</p>
+<div class="admonition warning">
+<p class="admonition-title">Inner warning</p>
+<p>This is a nested warning inside a note.</p>
+</div>
+</div>
+<h2 id="supported-types">Supported Types<a class="headerlink" href="#supported-types" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Complete Documentation Structure</strong> - See how to organize your documentation effectively</li>
-<li><strong>Material Theme Customization</strong> - Examples of theme customization and features</li>
-<li><strong>Markdown Extensions</strong> - Various markdown extensions and their usage</li>
-<li><strong>Search Functionality</strong> - Built-in search feature</li>
-<li><strong>Responsive Design</strong> - Works great on all devices</li>
+<li><code>note</code></li>
+<li><code>abstract</code></li>
+<li><code>info</code></li>
+<li><code>tip</code></li>
+<li><code>success</code></li>
+<li><code>question</code></li>
+<li><code>warning</code></li>
+<li><code>failure</code></li>
+<li><code>danger</code></li>
+<li><code>bug</code></li>
+<li><code>example</code></li>
+<li><code>quote</code></li>
 </ul>
-<h2 id="quick-links">Quick Links<a class="headerlink" href="#quick-links" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="guide/getting-started/">Getting Started</a> - Learn how to set up MkDocs</li>
-<li><a href="features/markdown-examples/">Markdown Examples</a> - See markdown formatting examples</li>
-<li><a href="features/admonitions/">Admonitions</a> - Learn about admonitions and callouts</li>
-</ul>
-<h2 id="getting-help">Getting Help<a class="headerlink" href="#getting-help" title="Permanent link">&para;</a></h2>
-<p>If you need help with MkDocs, you can:</p>
-<ul>
-<li>Read the <a href="https://www.mkdocs.org">official MkDocs documentation</a></li>
-<li>Visit the <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a> website</li>
-<li>Check the <a href="https://facelessuser.github.io/pymdown-extensions/">PyMdown Extensions</a> documentation</li>
-</ul>
-<h2 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout<a class="headerlink" href="#project-layout" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
 
 
 
@@ -820,10 +852,10 @@ docs/
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.highlight"], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.highlight"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.88dd0f4e.min.js"></script>
       
     
   </body>

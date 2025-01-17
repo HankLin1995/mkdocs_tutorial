@@ -48,6 +48,15 @@ markdown_extensions:
   - toc:
       permalink: true
 
+extra_css:
+  - stylesheets/extra.css
+
 plugins:
   - search
-  - with-pdf
+  - with-pdf:
+      author: Author Name
+      cover: true
+      cover_title: Your Document Title
+      cover_subtitle: Document Subtitle
+      toc_level: 3
+      custom_template_path: docs/pdf-template

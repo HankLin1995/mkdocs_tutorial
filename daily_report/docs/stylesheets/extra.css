@@ -1,0 +1,71 @@
+/* Default font settings */
+body {
+    font-family: "Microsoft YaHei", -apple-system, Helvetica, Arial, sans-serif;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Microsoft YaHei", -apple-system, Helvetica, Arial, sans-serif !important;
+}
+
+/* Code blocks */
+pre, code {
+    font-family: "Consolas", "Courier New", monospace;
+}
+
+/* Navigation */
+.md-nav {
+    font-family: "Microsoft YaHei", -apple-system, Helvetica, Arial, sans-serif;
+}
+
+/* Tables */
+table {
+    font-family: "Microsoft YaHei", -apple-system, Helvetica, Arial, sans-serif;
+}
+
+/* Image handling */
+img[width] {
+    width: attr(width);
+    max-width: 100%;
+}
+
+img[height] {
+    height: attr(height);
+}
+
+/* Fix for Markdown image width attributes */
+img[alt$="}"] {
+    max-width: 100%;
+}
+
+[width="25%"] { width: 25%; }
+[width="50%"] { width: 50%; }
+[width="75%"] { width: 75%; }
+[width="100%"] { width: 100%; }
+
+/* Specific pixel widths */
+[width="300"] { width: 300px; }
+[width="400"] { width: 400px; }
+[width="500"] { width: 500px; }
+[width="600"] { width: 600px; }
+
+/* PDF specific styles */
+@media print {
+    body {
+        font-family: "Microsoft YaHei", "SimSun", sans-serif !important;
+    }
+    
+    pre, code {
+        font-family: "Consolas", "Courier New", monospace !important;
+    }
+
+    img {
+        max-width: 100% !important;
+        page-break-inside: avoid;
+    }
+
+    img[width] {
+        width: auto !important;
+        max-width: attr(width) !important;
+    }
+}
