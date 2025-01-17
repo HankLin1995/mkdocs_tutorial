@@ -1,6 +1,28 @@
-# Welcome to MkDocs
+# Welcome to MkDocs Tutorial
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is a comprehensive tutorial and example site for MkDocs with the Material theme. Here you'll find examples of various features and capabilities that MkDocs offers.
+
+## Features Demonstrated
+
+- **Complete Documentation Structure** - See how to organize your documentation effectively
+- **Material Theme Customization** - Examples of theme customization and features
+- **Markdown Extensions** - Various markdown extensions and their usage
+- **Search Functionality** - Built-in search feature
+- **Responsive Design** - Works great on all devices
+
+## Quick Links
+
+- [Getting Started](guide/getting-started.md) - Learn how to set up MkDocs
+- [Markdown Examples](features/markdown-examples.md) - See markdown formatting examples
+- [Admonitions](features/admonitions.md) - Learn about admonitions and callouts
+
+## Getting Help
+
+If you need help with MkDocs, you can:
+
+- Read the [official MkDocs documentation](https://www.mkdocs.org)
+- Visit the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) website
+- Check the [PyMdown Extensions](https://facelessuser.github.io/pymdown-extensions/) documentation
 
 ## Commands
 
